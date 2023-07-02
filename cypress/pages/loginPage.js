@@ -15,6 +15,7 @@ get submitButton(){
 }
 
 
+
 // methode
     load(){
 
@@ -28,6 +29,14 @@ login(email,password){
     this.passwordInput.type(password)
     this.submitButton.click()
 
+    
+
+}
+
+
+hello(){
+
+    console.log('hello');
 }
 
 }
